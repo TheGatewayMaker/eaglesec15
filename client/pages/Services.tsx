@@ -224,17 +224,17 @@ export default function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-primary py-16 md:py-24">
+      <section className="bg-gradient-to-r from-slate-900 to-slate-800 py-24 md:py-32">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-h2 text-primary-foreground mb-6 font-bold">
+          <h2 className="text-4xl md:text-5xl text-white mb-6 font-black">
             Need Custom Security Solutions?
           </h2>
-          <p className="text-xl text-primary-foreground mb-8 opacity-95">
+          <p className="text-xl text-gray-200 mb-10 opacity-90 font-bold">
             Contact our team to discuss your specific security requirements
           </p>
           <Link
             to="/contact"
-            className="bg-accent text-accent-foreground px-8 py-4 font-bold text-lg rounded-lg hover:opacity-90 transition-opacity inline-block"
+            className="bg-accent text-accent-foreground px-10 py-5 font-black text-lg rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
           >
             Get in Touch
           </Link>
