@@ -329,7 +329,7 @@ export default function Home() {
           <h3 className="text-3xl md:text-4xl font-black mb-12">
             Trusted by Leading Organizations
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
               "ARY News",
               "Meezan Bank",
@@ -344,9 +344,9 @@ export default function Home() {
             ].map((client) => (
               <div
                 key={client}
-                className="border-2 border-primary-foreground p-6 rounded-xl text-center hover:bg-primary-foreground hover:text-primary transition-all"
+                className="aspect-square border-2 border-primary-foreground p-6 flex items-center justify-center text-center hover:bg-primary-foreground hover:text-primary hover:shadow-xl transition-all duration-300 cursor-pointer"
               >
-                <p className="font-black text-base md:text-lg">{client}</p>
+                <p className="font-black text-sm md:text-base leading-tight">{client}</p>
               </div>
             ))}
           </div>
