@@ -5,18 +5,18 @@ export default function Home() {
   return (
     <div className="bg-background">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-primary via-primary to-primary relative py-20 md:py-32">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 right-10 w-40 h-40 bg-accent rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 left-10 w-32 h-32 bg-accent rounded-full blur-3xl"></div>
+      <section className="bg-gradient-to-br from-primary via-primary to-primary relative py-24 md:py-40 overflow-hidden">
+        <div className="absolute inset-0 opacity-15">
+          <div className="absolute -top-32 -right-20 w-72 h-72 bg-accent rounded-full blur-3xl animation-pulse"></div>
+          <div className="absolute -bottom-32 -left-20 w-72 h-72 bg-accent rounded-full blur-3xl animation-pulse"></div>
         </div>
 
         <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-3xl">
-            <h1 className="text-h1 text-primary-foreground mb-6 font-bold leading-tight">
+          <div className="max-w-4xl">
+            <h1 className="text-h1 text-primary-foreground mb-6 font-black leading-tight">
               Professional Security Services You Can Trust
             </h1>
-            <p className="text-xl text-primary-foreground mb-8 opacity-95 leading-relaxed">
+            <p className="text-2xl text-primary-foreground mb-10 opacity-95 leading-relaxed font-semibold">
               Eagle Security Guards (Pvt) Ltd draws its manpower from armed
               forces of Pakistan and imparts training to meet critical security
               requirements reliably and efficiently.
@@ -24,13 +24,13 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 to="/services"
-                className="bg-accent text-accent-foreground px-8 py-4 font-bold text-lg rounded-lg hover:opacity-90 transition-opacity inline-block text-center"
+                className="bg-accent text-accent-foreground px-10 py-5 font-black text-lg rounded-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block text-center"
               >
                 Our Services
               </Link>
               <Link
                 to="/contact"
-                className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 font-bold text-lg rounded-lg hover:bg-primary-foreground hover:text-primary transition-colors inline-block text-center"
+                className="border-2 border-primary-foreground text-primary-foreground px-10 py-5 font-black text-lg rounded-lg hover:bg-primary-foreground hover:text-primary transition-all duration-300 inline-block text-center"
               >
                 Get in Touch
               </Link>
