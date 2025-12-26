@@ -104,7 +104,7 @@ export default function Navigation() {
                 key={link.to}
                 to={link.to}
                 onClick={() => setMobileMenuOpen(false)}
-                className="block py-3 px-5 font-black text-sm text-white hover:text-accent bg-gradient-to-r hover:from-slate-800 hover:to-slate-700 transition-all duration-300 rounded-lg mb-2 border-l-4 border-transparent hover:border-accent"
+                className="block py-3 px-5 font-black text-sm text-foreground hover:text-accent bg-muted/40 hover:bg-muted/70 transition-all duration-300 rounded-lg mb-2 border-l-4 border-transparent hover:border-accent"
                 style={{
                   animationDelay: `${index * 50}ms`,
                 }}
