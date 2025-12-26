@@ -90,7 +90,7 @@ export default function Services() {
               className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in"
               style={{ animationDelay: "100ms" }}
             >
-              <div className="overflow-hidden rounded-xl shadow-lg h-64 md:h-96 order-2 md:order-1 group relative">
+              <div className="overflow-hidden rounded-xl shadow-lg h-64 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/7714972/pexels-photo-7714972.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Elite security professional in uniform"
@@ -108,7 +108,7 @@ export default function Services() {
                   </span>
                 </div>
               </div>
-              <div className="order-1 md:order-2">
+              <div>
                 <div className="flex items-center gap-3 mb-6">
                   <Users className="w-10 md:w-12 h-10 md:h-12 text-accent flex-shrink-0" />
                   <h2 className="text-3xl md:text-4xl font-black text-foreground">
