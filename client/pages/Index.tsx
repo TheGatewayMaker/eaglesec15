@@ -13,7 +13,12 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 
 export default function Home() {
   return (
-    <div className="bg-background">
+    <div
+      className="text-foreground"
+      style={{
+        background: 'linear-gradient(to bottom, #ffffff 0%, #f5f5f5 25%, #d3d3d3 50%, #696969 75%, #1a1a1a 100%)'
+      }}
+    >
       {/* Hero Section */}
       <section className="bg-background text-foreground relative overflow-hidden py-24 md:py-40 transition-colors duration-300 animate-fade-in">
         <div className="absolute inset-0 opacity-10">
