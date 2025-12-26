@@ -208,22 +208,22 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us - Feature Grid */}
-      <section className="py-28 md:py-40 bg-white">
+      <section className="py-20 md:py-40 bg-white">
         <div className="container mx-auto px-6">
           {/* Section Title with Visual Styling */}
-          <div className="mb-20">
-            <div className="inline-flex items-center gap-4 mb-6">
-              <div className="w-2 h-12 bg-accent rounded-full"></div>
-              <h2 className="text-5xl md:text-6xl font-black text-primary">
+          <div className="mb-16 md:mb-20">
+            <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
+              <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
+              <h2 className="text-3xl md:text-6xl font-black text-primary leading-tight">
                 Why Choose Eagle
               </h2>
             </div>
-            <p className="text-xl font-bold text-foreground ml-6 max-w-2xl">
+            <p className="text-sm md:text-xl font-bold text-foreground ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Three decades of trusted security excellence
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {[
               {
                 icon: Award,
