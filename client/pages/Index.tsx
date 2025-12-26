@@ -12,10 +12,10 @@ import {
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
-      {/* Hero Section - Dark Background with Bold Typography */}
-      <section className="bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-white relative overflow-hidden py-24 md:py-40">
-        <div className="absolute inset-0 opacity-15">
+    <div className="bg-background">
+      {/* Hero Section */}
+      <section className="bg-background text-foreground relative overflow-hidden py-24 md:py-40 transition-colors duration-300">
+        <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 right-20 w-80 h-80 bg-accent rounded-full blur-3xl"></div>
         </div>
 
@@ -26,10 +26,10 @@ export default function Home() {
               <p className="text-sm font-black text-accent mb-6 uppercase tracking-widest">
                 Professional Security Since 1992
               </p>
-              <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white mb-8 leading-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-foreground mb-8 leading-tight">
                 Elite Security Services For Your Peace of Mind
               </h1>
-              <p className="text-base sm:text-lg md:text-xl text-gray-300 font-bold mb-12 leading-relaxed">
+              <p className="text-base sm:text-lg md:text-xl text-muted-foreground font-bold mb-12 leading-relaxed">
                 Drawn from the armed forces of Pakistan, our personnel deliver
                 world-class security with precision, discipline, and unwavering
                 commitment to your safety.
