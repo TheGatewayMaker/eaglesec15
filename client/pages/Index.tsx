@@ -173,31 +173,32 @@ export default function Home() {
       </section>
 
       {/* Value Proposition Section - With Background */}
-      <section className="bg-gradient-to-r from-slate-800 to-slate-900 text-white relative overflow-hidden py-32 md:py-48">
-        <div className="absolute inset-0 opacity-10">
+      <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white relative overflow-hidden py-20 md:py-32">
+        <div className="absolute inset-0 opacity-5">
           <div
             className="absolute inset-0"
             style={{
               backgroundImage:
-                "url('https://images.pexels.com/photos/3706640/pexels-photo-3706640.jpeg?auto=compress&cs=tinysrgb&w=1200')",
+                "url('https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=1200')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
           ></div>
         </div>
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-800/95 to-slate-900/95"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-950/98 via-slate-900/98 to-slate-950/98"></div>
 
         <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-4xl">
-            <p className="text-3xl md:text-5xl font-black leading-tight mb-10">
-              We believe that in a world where security has become critical, a
-              personalized approach is key to ensuring you get the protection
-              you deserve.
+          <div className="max-w-4xl mx-auto text-center md:text-left">
+            <h2 className="text-3xl md:text-5xl font-black leading-tight mb-6 md:mb-8">
+              Why Professional Security Matters
+            </h2>
+            <p className="text-base md:text-xl font-bold opacity-90 leading-relaxed mb-6">
+              In a world where security has become critical, a personalized approach is key to ensuring you get the protection you deserve.
             </p>
-            <p className="text-lg md:text-2xl font-bold opacity-90 leading-relaxed">
+            <p className="text-base md:text-lg font-bold opacity-80 leading-relaxed">
               From static guards and elite bodyguards to mobile escorts and
               advanced security equipment, we provide comprehensive, tailored
-              solutions for every security need.
+              solutions for every security need backed by decades of expertise.
             </p>
           </div>
         </div>
