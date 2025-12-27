@@ -540,7 +540,7 @@ export default function Home() {
       </section>
 
       {/* Location Section with Google Maps */}
-      <section className="py-20 md:py-48 bg-background transition-colors duration-300">
+      <section className="py-20 md:py-48 bg-gradient-to-b from-background/98 to-background transition-colors duration-300">
         <div className="container mx-auto px-6">
           <div className="mb-16 md:mb-24">
             <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
