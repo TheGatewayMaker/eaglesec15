@@ -208,7 +208,7 @@ export default function Home() {
               className="bg-card text-foreground p-0 overflow-hidden relative group border border-border animate-slide-in-from-bottom transition-all duration-300"
               style={{ animationDelay: "400ms" }}
             >
-              <div className="relative overflow-hidden h-64 md:h-80">
+              <div className="relative overflow-hidden h-48 sm:h-56 md:h-80">
                 <img
                   src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Advanced security equipment and surveillance systems"
@@ -219,17 +219,17 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-lg hover:shadow-lg transition-all duration-300">
                     Learn More
                   </span>
                 </Link>
               </div>
-              <div className="relative z-10 p-8 md:p-10">
-                <Lock className="w-12 h-12 mb-4 text-accent" />
-                <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight text-foreground">
+              <div className="relative z-10 p-5 sm:p-8 md:p-10">
+                <Lock className="w-10 sm:w-12 h-10 sm:h-12 mb-3 sm:mb-4 text-accent" />
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-3 sm:mb-4 leading-tight text-foreground">
                   Security Equipment
                 </h3>
-                <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
+                <p className="text-sm sm:text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
                   We deploy state-of-the-art surveillance, access control, and
                   security monitoring systems tailored to your facility. From
                   CCTV networks to integrated security platforms, our technology
