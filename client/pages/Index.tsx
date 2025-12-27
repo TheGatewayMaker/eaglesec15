@@ -280,7 +280,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {/* Experience Card */}
-            <div className="group relative bg-card border-2 border-accent text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-2xl hover:border-accent/80 transition-all duration-300">
+            <div className="group relative bg-card border border-accent/60 text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-2xl hover:border-accent transition-all duration-300">
               <div className="relative z-10">
                 <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-accent to-blue-900 mb-4 sm:mb-6 md:mb-8 shadow-lg shadow-accent/40">
                   <AnimatedCounter
