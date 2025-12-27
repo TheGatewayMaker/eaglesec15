@@ -218,19 +218,19 @@ export default function Home() {
               backgroundPosition: "center",
             }}
           ></div>
-          <div className="absolute inset-0 bg-gradient-to-r from-background/98 via-background/90 to-background/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-background/99 via-background/95 to-background/70"></div>
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center md:text-left">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-black leading-tight mb-4 sm:mb-6 md:mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-black leading-tight mb-4 sm:mb-6 md:mb-8 text-foreground">
               Why Professional Security Matters
             </h2>
-            <p className="text-sm sm:text-base md:text-xl font-bold opacity-95 leading-relaxed mb-4 sm:mb-6 text-foreground">
+            <p className="text-sm sm:text-base md:text-xl font-black leading-relaxed mb-4 sm:mb-6 text-foreground">
               In a world where security has become critical, a personalized
               approach is key to ensuring you get the protection you deserve.
             </p>
-            <p className="text-sm sm:text-base md:text-lg font-bold opacity-90 leading-relaxed text-foreground">
+            <p className="text-sm sm:text-base md:text-lg font-black leading-relaxed text-foreground">
               From static guards and elite bodyguards to mobile escorts and
               advanced security equipment, we provide comprehensive, tailored
               solutions for every security need backed by decades of expertise.
