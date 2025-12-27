@@ -254,7 +254,7 @@ export default function Home() {
               backgroundPosition: "center",
             }}
           ></div>
-          <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-background/98 via-background/90 to-background/50"></div>
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
