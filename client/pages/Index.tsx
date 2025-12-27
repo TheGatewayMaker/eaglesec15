@@ -511,7 +511,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           <div className="mb-12 md:mb-16">
             <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
-              <div className="w-1 md:w-1.5 h-10 md:h-12 bg-accent rounded-full flex-shrink-0"></div>
+              <div className="w-1 md:w-1.5 h-10 md:h-12 bg-pk-green-main rounded-full flex-shrink-0"></div>
               <h2 className="text-3xl md:text-6xl font-black leading-tight">
                 Our Head Office Location
               </h2>
