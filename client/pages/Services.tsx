@@ -28,7 +28,7 @@ export default function Services() {
 
       {/* Services Overview */}
       <section className="py-12 sm:py-16 md:py-28 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6">
+        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           {/* Static Security Guards */}
           <div className="mb-10 sm:mb-16 md:mb-20 pb-8 sm:pb-12 md:pb-16 border-b border-border">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center animate-fade-in">
