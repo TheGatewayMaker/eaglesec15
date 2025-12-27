@@ -64,7 +64,7 @@ export default function Home() {
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-3 border-accent text-accent px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center rounded-xl hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block relative after:absolute after:inset-0 after:border-3 after:border-accent after:rounded-xl after:scale-105 after:opacity-0 group-hover:after:scale-100 after:transition-all after:duration-300"
+                  className="border-3 border-accent text-accent px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block relative after:absolute after:inset-0 after:border-3 after:border-accent after:scale-105 after:opacity-0 group-hover:after:scale-100 after:transition-all after:duration-300"
                 >
                   Request Consultation
                 </Link>
