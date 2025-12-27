@@ -422,7 +422,7 @@ export default function Home() {
               <p className="text-white font-black text-xs uppercase tracking-widest mb-3 sm:mb-4 md:mb-6 opacity-90">
                 Head Office
               </p>
-              <h3 className="text-3xl sm:text-4xl md:text-7xl font-black mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
+              <h3 className="text-3xl sm:text-4xl md:text-7xl font-black mb-4 sm:mb-6 md:mb-8 leading-tight text-white" style={{color: "white"}}>
                 Islamabad
               </h3>
               <p className="text-sm sm:text-base md:text-lg font-bold opacity-95 leading-relaxed text-white">
