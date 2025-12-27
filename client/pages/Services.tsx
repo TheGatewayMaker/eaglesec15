@@ -37,7 +37,7 @@ export default function Services() {
                     Static Security Guard Services
                   </h2>
                 </div>
-                <p className="text-muted-foreground leading-relaxed mb-8 text-base md:text-lg font-bold">
+                <p className="text-muted-foreground leading-relaxed mb-8 text-lg md:text-xl font-black">
                   Eagle Security Guards draws its main pool of manpower from
                   armed forces of Pakistan and imparts training to meet critical
                   security requirements reliably and efficiently.
@@ -122,7 +122,7 @@ export default function Services() {
                     Bodyguards
                   </h2>
                 </div>
-                <p className="text-muted-foreground leading-relaxed mb-8 text-base md:text-lg font-bold">
+                <p className="text-muted-foreground leading-relaxed mb-8 text-lg md:text-xl font-black">
                   Our bodyguards are mainly drawn from Special Service Group
                   (SSG) of Pakistan Army, an elite force trained to use all
                   available means to survive the worst security hazards.
@@ -170,7 +170,7 @@ export default function Services() {
                     Mobile Escort Services
                   </h2>
                 </div>
-                <p className="text-muted-foreground leading-relaxed mb-8 text-base md:text-lg font-bold">
+                <p className="text-muted-foreground leading-relaxed mb-8 text-lg md:text-xl font-black">
                   Mobile escort services are provided by ESG to protect
                   personnel during movement. Our escort teams are fully trained
                   in defensive measures to meet any eventuality.
@@ -254,7 +254,7 @@ export default function Services() {
                     Security Equipment
                   </h2>
                 </div>
-                <p className="text-muted-foreground leading-relaxed mb-8 text-base md:text-lg font-bold">
+                <p className="text-muted-foreground leading-relaxed mb-8 text-lg md:text-xl font-black">
                   ESG specialises in providing all security equipment needed to
                   safeguard your premises with cutting-edge technology and
                   proven solutions.
