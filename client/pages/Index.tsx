@@ -21,11 +21,7 @@ export default function Home() {
       }}
     >
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-16 sm:py-20 md:py-40 transition-colors duration-300 animate-fade-in">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 right-20 w-80 h-80 bg-accent rounded-full blur-3xl"></div>
-        </div>
-
+      <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-16 sm:py-20 md:py-48 transition-colors duration-300">
         {/* Hero Background Image - Right Half Only */}
         <div
           className="hidden md:block absolute right-0 top-0 w-[calc(50%+2rem)] h-full -mr-6"
@@ -36,20 +32,23 @@ export default function Home() {
             backgroundPosition: "center",
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-background/30 via-background/10 to-transparent"></div>
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center max-w-6xl">
             {/* Left Content */}
             <div>
-              <p className="text-xs sm:text-sm font-black text-accent mb-4 sm:mb-6 uppercase tracking-widest">
-                Professional Security Since 1992
-              </p>
-              <h1 className="text-3xl sm:text-4xl md:text-7xl font-black mb-6 sm:mb-8 leading-tight">
+              <div className="flex items-center gap-3 mb-6 sm:mb-8">
+                <div className="w-1 h-10 md:h-12 bg-accent rounded-full"></div>
+                <p className="text-xs sm:text-sm font-black text-accent uppercase tracking-widest">
+                  Professional Security Since 1992
+                </p>
+              </div>
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-black mb-6 sm:mb-8 leading-tight text-foreground">
                 Elite Security Services For Your Peace of Mind
               </h1>
-              <p className="text-sm sm:text-base md:text-xl text-muted-foreground font-bold mb-8 sm:mb-12 leading-relaxed">
+              <p className="text-sm sm:text-base md:text-lg text-muted-foreground font-bold mb-8 sm:mb-12 leading-relaxed max-w-lg">
                 Drawn from the armed forces of Pakistan, our personnel deliver
                 world-class security with precision, discipline, and unwavering
                 commitment to your safety.
@@ -57,14 +56,13 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                 <Link
                   to="/services"
-                  className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center hover:from-blue-700 hover:to-blue-900 hover:shadow-2xl transition-all duration-300 inline-block relative group overflow-hidden"
+                  className="bg-accent text-accent-foreground px-8 md:px-12 py-4 md:py-5 font-black text-base md:text-lg text-center hover:shadow-xl transition-shadow duration-300 inline-block"
                 >
-                  <span className="relative z-10">Explore Services</span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 translate-x-full group-hover:translate-x-0 transition-all duration-500"></div>
+                  Explore Services
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-2 border-accent text-accent px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center hover:bg-accent hover:text-accent-foreground hover:border-accent transition-all duration-300 inline-block relative"
+                  className="border-2 border-accent text-accent px-8 md:px-12 py-4 md:py-5 font-black text-base md:text-lg text-center hover:bg-accent hover:text-accent-foreground transition-colors duration-300 inline-block"
                 >
                   Request Consultation
                 </Link>
